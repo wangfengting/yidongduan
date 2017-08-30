@@ -1,0 +1,396 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+    <title>发现</title>
+    <style>
+        html, body, ul, li {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .headre-one {
+            height: 10vh;
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            z-index: 100;
+            border-bottom: 1px solid #f5f5f5;
+        }
+
+        .headre-one-backone {
+            width: 80vw;
+            height: 7vh;
+            background: #eeeeee;
+            border-radius: 2vh;
+            margin-left: 4vw;
+            margin-top: 1.5vh;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .backone-cn {
+            height: 4.6vh;
+            width: 4.6vh;
+        }
+
+        .back-one {
+            max-height: 4.6vh;
+            min-width: 4.6vm;
+            margin-left: 2vw;
+        }
+
+        .backone-cm {
+            height: 4.6vh;
+            width: 70vw;
+            color: #666;
+            font-size: 2.2vh;
+            margin-left: 4vw;
+
+        }
+
+        .headre-one-backtwo {
+            width: 12vw;
+            height: 6.9vh;
+            margin-left: 1.5vw;
+            margin-top: 1.2vh;
+        }
+
+        .back-two {
+            width: 12vw;
+            height: 6.9vh;
+            max-height: 11vh;
+            max-width: 6.9vh;
+            opacity: 0.5;
+        }
+
+        .section {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .sec-one {
+            height: 10vh;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-size: 2.7vh;
+            font-weight: 400;
+        }
+
+        .one-a {
+            width: 33.3vw;
+            height: 7vh;
+            text-align: center;
+            padding-top: 3vh;
+        }
+
+        .secs-one {
+            border-bottom: 1px solid #42bd56;
+            color: #42bd56;
+        }
+
+        .sec-two {
+            height: 27vh;
+
+        }
+
+        .sec-three {
+            height: 14vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sec-three-ml {
+            height: 9vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-end;
+        }
+
+        .pic-pics {
+            height: 5vh;
+            width: 8vw;
+        }
+
+        .sec-three-mn {
+            height: 5vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            font-size: 2.2vh;
+        }
+
+        .sec-four {
+            height: 2vh;
+            background: #f5f5f5;
+        }
+
+        .sec-five {
+            height: 8vh;
+            padding-top: 2vh;
+        }
+
+        .jiankang {
+            font-size: 3vh;
+            color: #969696;
+            margin-left: 3vw;
+        }
+
+        .body-one {
+            height: 15vh;
+            border-bottom: 1px solid #f5f5f5;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+			margin-top:2vh;
+        }
+
+        .pics-one {
+            height: 10vh;
+            width: 18vw;
+            margin-left: 2vw;
+        }
+
+        .bo-two {
+            margin-left: 3vw;
+
+        }
+
+        .fei {
+            color: #A5A5A5;
+            line-height: 5vh;
+            font-size: 2vh;
+        }
+
+        .pics-two {
+            margin-left: 35vw;
+            height: 5vh;
+            width: 8vw;
+        }
+
+        .meng {
+            height: 20vh;
+            width: 94vw;
+            margin-left: 2vw;
+
+        }
+
+        .wei {
+            height: 11vh;
+            background: #f5f5f5;
+        }
+
+        footer {
+            height: 10vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            background: #FDFDFD;
+            position: fixed;
+            bottom: 0;
+        }
+
+        .foot-one {
+            height: 7vh;
+            width: 20vw;
+        }
+
+        .di1 {
+            height: 7vh;
+            width: 8vw;
+        }
+
+        .back-five {
+            height: 7vh;
+            width: 12vw;
+        }
+
+        .picture {
+            height: 27vh;
+            width: 100vw;
+        }
+	 .qinqin{
+		 height:27vh;
+		 width:100vw;
+		 }
+    </style>
+     
+</head>
+
+<body>
+<header>
+    <div class="headre-one">
+        <div class="headre-one-backone">
+            <div class="backone-cn">
+                <img class="back-one" src="img/tu2.png">
+            </div>
+            <div class="backone-cm">
+                搜索动态文章，话题，用户
+            </div>
+        </div>
+        <div class="headre-one-backtwo">
+            <img class="back-two" src="img/tu3.jpg">
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="sec-one">
+        <div class="one-a secs-one">
+            推荐
+        </div>
+        <div class="one-a">
+            精选
+        </div>
+        <div class="one-a">
+            好友圈
+        </div>
+        
+        
+    </div>
+    <div class="sec-two">
+      <img class="qinqin" src="img/qingxin1.jpg">
+         
+    </div>
+
+    <div class="sec-three">
+
+        <div class="sec-three-ml">
+            <div class="happy-one">
+                <img class="pic-pics" src="img/jian1.jpg">
+            </div>
+            <div class="happy-one">
+                <img class="pic-pics" src="img/jian2.jpg"></div>
+            <div class="happy-one">
+                <img class="pic-pics" src="img/jian3.jpg"></div>
+            <div class="happy-one">
+                <img class="pic-pics" src="img/jian4.jpg"></div>
+        </div>
+        <div class="sec-three-mn">
+            <div class="happy-one">
+                减肥知识
+            </div>
+            <div class="happy-one">
+                成功故事
+            </div>
+            <div class="happy-one">
+                Nice服务
+            </div>
+            <div class="happy-one">
+                热门话题
+            </div>
+        </div>
+    </div>
+
+    <div class="sec-four"></div>
+
+    <div class="sec-five">
+        <span class="jiankang">健康频道</span>
+    </div>
+
+    <div class="body-one">
+        <div class="bo-one">
+            <img class="pics-one" src="img/jian5.jpg">
+        </div>
+        <div class="bo-two">
+            薄荷健身视频<br>
+            <span class="fei">带你健身带你飞</span>
+        </div>
+        <div class="bo-three">
+            <img class="pics-two" src="img/xiaoyuhao.jpg">
+        </div>
+    </div>
+    <div class="body-one">
+        <div class="bo-one">
+            <img class="pics-one " src="img/jian5.jpg">
+        </div>
+        <div class="bo-two">
+            薄荷健康美食<br>
+            <span class="fei">实用美食短视频</span>
+        </div>
+        <div class="bo-three">
+            <img class="pics-two" src="img/xiaoyuhao.jpg">
+        </div>
+    </div>
+    <div class="body-one">
+        <div class="bo-one">
+            <img class="pics-one" src="img/jian5.jpg">
+        </div>
+        <div class="bo-two">
+            薄荷的 Show<br>
+            <span class="fei">天天健康减肥吧</span>
+        </div>
+        <div class="bo-three">
+            <img class="pics-two" src="img/xiaoyuhao.jpg">
+        </div>
+    </div>
+    <div class="body-one">
+        <div class="bo-one">
+            <img class="pics-one" src="img/jian5.jpg">
+        </div>
+        <div class="bo-two">
+            薄荷硬糖视频<br>
+            <span class="fei">少男少女的百科</span>
+        </div>
+        <div class="bo-three">
+            <img class="pics-two" src="img/xiaoyuhao.jpg">
+        </div>
+    </div>
+
+    <div class="sec-four"></div>
+    <div class="sec-five">
+        <span class="jiankang">热门活动</span>
+    </div>
+
+    <div class="body-two">
+        <img class="meng" src="img/huoyue.jpg">
+    </div>
+
+    <div class="wei"></div>
+
+</section>
+<footer>
+    <div class="footer-one">
+        <a href="index.html">
+            <img class="di1" src="img/lv1.jpg">
+        </a>
+    </div>
+    <div class="footer-one">
+        <a href="find.html">
+            <img class="di1" src="img/lv2.jpg">
+        </a>
+    </div>
+    <div class="footer-one">
+        <a href="add.html">
+            <img class="di1 back-five" src="img/jiahao.jpg">
+        </a>
+    </div>
+    <div class="footer-three">
+        <a href="meal.html">
+            <img class="di1" src="img/di3.jpg">
+        </a>
+    </div>
+    <div class="footer-one">
+        <a href="my.html">
+            <img class="di1" src="img/di4.jpg">
+        </a>
+    </div>
+</footer>
+</body>
+ 
+</html>
